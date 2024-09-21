@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +14,8 @@
     "@biomejs/biome": "^1.9.2",
     "@types/node": "^22.5.5",
     "tsx": "^3.12.10",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "vitest": "^2.1.1"
   },
   "dependencies": {
     "fastify": "^4.23.2"

@@ -10,7 +10,7 @@ export type User = {
 export class UserService {
   users: User[] = [];
 
-  async create(user: User) {
+  create(user: User) {
     const existUser = this.users.find((u) => u.username === user.username);
     console.log({ existUser });
     if (existUser) throw new AppError("User already exists", 400);
