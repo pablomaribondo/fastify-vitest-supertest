@@ -1,5 +1,4 @@
 import Fastify from "fastify";
-import crypto from "node:crypto";
 import { type User, UserService } from "./modules/user/user.service";
 import { AppError } from "./error/app.error";
 
